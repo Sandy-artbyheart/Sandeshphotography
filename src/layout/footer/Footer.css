@@ -1,0 +1,8 @@
+.footer {
+    color: var(--primary-grey);
+    text-align: center;
+}
+
+.owner {
+    color: var(--primary-green);
+}

@@ -1,0 +1,14 @@
+.category-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.category-list a {
+    text-decoration: none !important;
+}
+
+.category-list h1 {
+    margin: 10px auto;
+}
