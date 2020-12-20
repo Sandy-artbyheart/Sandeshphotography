@@ -6,3 +6,15 @@
     background-repeat: no-repeat;
     margin: 5px 0;
 }
+
+@media only screen and (max-width: 1200px) {
+    .gallery-item {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery-item {
+        width: 100%;
+    }
+}

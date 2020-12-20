@@ -6,3 +6,14 @@
     text-decoration: none;
     color: var(--primary-green) !important;
 }
+
+.logo {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        margin-bottom: -5px;
+        font-size: 25px;
+    }
+}

@@ -7,11 +7,10 @@ const Appbar = () => {
     return (
         <div className="appbar">
             <Navbar collapseOnSelect expand="md" variant="dark">
-                <Navbar.Brand>
                     <Link to='/'>
-                        <h2>Sandesh Photography</h2>
-
+                        <p className="logo">Sandesh Photography</p>
                     </Link>
+                <Navbar.Brand>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
