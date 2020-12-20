@@ -9,7 +9,7 @@ const Gallery = (props) => {
             setImageUrl(prevState => url)
         })
             .catch(err => {
-                window.alert('Failed to load image')
+                window.alert('Failed to load images')
             })
     }, [props.data])
 
