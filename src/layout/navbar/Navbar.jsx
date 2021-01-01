@@ -7,9 +7,9 @@ const Appbar = () => {
     return (
         <div className="appbar">
             <Navbar collapseOnSelect expand="md" variant="dark">
-                    <Link to='/'>
-                        <p className="logo">Sandesh Photography</p>
-                    </Link>
+                <Link to='/'>
+                    <p className="logo">Sandesh Photography</p>
+                </Link>
                 <Navbar.Brand>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -18,9 +18,6 @@ const Appbar = () => {
                     <Nav>
                         <Nav.Link>
                             <Link to="/">Home</Link>
-                        </Nav.Link>
-                        <Nav.Link>
-                            <Link to="/gallery">Gallery</Link>
                         </Nav.Link>
                         <Nav.Link>
                             <Link to="/services">Services</Link>

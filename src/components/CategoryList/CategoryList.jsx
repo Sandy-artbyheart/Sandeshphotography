@@ -12,8 +12,6 @@ const CategoryList = () => {
         getFirstImage('Maternity')
     }, [])
 
-    console.log(categories)
-
     return (
         <div className="category-list">
             {
